@@ -12,4 +12,6 @@ C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj
 C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.dll
 C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.pdb
 C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.genruntimeconfig.cache
-C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.MainForm.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.MainFormProfessor.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.LoginForm.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.Properties.Resources.resources
