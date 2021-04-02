@@ -69,11 +69,11 @@ namespace SchoolManagement
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft JhengHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
-            this.label2.Location = new System.Drawing.Point(183, 125);
+            this.label2.Location = new System.Drawing.Point(151, 122);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(303, 36);
+            this.label2.Size = new System.Drawing.Size(391, 46);
             this.label2.TabIndex = 1;
             this.label2.Text = "Login to your account";
             // 
@@ -81,28 +81,28 @@ namespace SchoolManagement
             // 
             this.textBoxUsername.Location = new System.Drawing.Point(267, 222);
             this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(352, 30);
+            this.textBoxUsername.Size = new System.Drawing.Size(309, 30);
             this.textBoxUsername.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft JhengHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Microsoft JhengHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
-            this.label3.Location = new System.Drawing.Point(67, 222);
+            this.label3.Location = new System.Drawing.Point(82, 222);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(155, 36);
+            this.label3.Size = new System.Drawing.Size(135, 30);
             this.label3.TabIndex = 3;
             this.label3.Text = "Username:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft JhengHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Microsoft JhengHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
-            this.label4.Location = new System.Drawing.Point(67, 287);
+            this.label4.Location = new System.Drawing.Point(82, 287);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(147, 36);
+            this.label4.Size = new System.Drawing.Size(126, 30);
             this.label4.TabIndex = 4;
             this.label4.Text = "Password:";
             // 
@@ -120,7 +120,8 @@ namespace SchoolManagement
             // 
             this.textBoxPassword.Location = new System.Drawing.Point(267, 287);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(352, 30);
+            this.textBoxPassword.PasswordChar = '*';
+            this.textBoxPassword.Size = new System.Drawing.Size(309, 30);
             this.textBoxPassword.TabIndex = 6;
             // 
             // pictureBox2
@@ -138,9 +139,9 @@ namespace SchoolManagement
             this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
             this.btnLogin.Font = new System.Drawing.Font("Microsoft JhengHei UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(267, 375);
+            this.btnLogin.Location = new System.Drawing.Point(226, 363);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(130, 55);
+            this.btnLogin.Size = new System.Drawing.Size(268, 55);
             this.btnLogin.TabIndex = 8;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -162,6 +163,7 @@ namespace SchoolManagement
             this.Controls.Add(this.panelTop);
             this.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.MaximumSize = new System.Drawing.Size(710, 525);
             this.MinimumSize = new System.Drawing.Size(710, 525);
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

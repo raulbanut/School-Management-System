@@ -71,6 +71,7 @@ namespace SchoolManagement
             this.ClientSize = new System.Drawing.Size(878, 494);
             this.Controls.Add(this.btnLoginProfessor);
             this.Controls.Add(this.btnLoginStudent);
+            this.MaximumSize = new System.Drawing.Size(900, 550);
             this.MinimumSize = new System.Drawing.Size(900, 550);
             this.Name = "Intro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
