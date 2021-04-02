@@ -17,12 +17,16 @@ namespace SchoolManagement
 
         private void btnLoginStudent_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            Form loginForm = new LoginForm();
+            loginForm.Show();
         }
 
         private void btnLoginProfessor_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form loginForm = new LoginForm();
+            loginForm.Show();
         }
     }
 }
