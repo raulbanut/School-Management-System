@@ -16,3 +16,5 @@ C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj
 C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.LoginForm.resources
 C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.Properties.Resources.resources
 C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.Intro.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.MainFormStudent.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.PersonalData.resources

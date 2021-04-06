@@ -19,11 +19,27 @@ namespace SchoolManagement
             customizeDesign();
         }
 
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelMain.Controls.Add(childForm);
+            panelMain.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
         private void MainForm_Load(object sender, EventArgs e)
         {
 
         }
 
+        
         private void customizeDesign()
         {
             panelSubCourses.Visible = false;
@@ -74,6 +90,11 @@ namespace SchoolManagement
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnPersonalData_Click(object sender, EventArgs e)
+        {
+            openChildForm(new PersonalData());
         }
     }
 }
