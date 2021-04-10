@@ -34,7 +34,7 @@ namespace SchoolManagement
             this.panelSubCourses = new System.Windows.Forms.Panel();
             this.btnGrades = new System.Windows.Forms.Button();
             this.btnGroups = new System.Windows.Forms.Button();
-            this.btnSeeRemoveCourse = new System.Windows.Forms.Button();
+            this.btnSeeCourse = new System.Windows.Forms.Button();
             this.btnAddCourse = new System.Windows.Forms.Button();
             this.btnCourses = new System.Windows.Forms.Button();
             this.btnPersonalData = new System.Windows.Forms.Button();
@@ -42,9 +42,13 @@ namespace SchoolManagement
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.panel_topMainForm = new System.Windows.Forms.Panel();
+            this.labelPersonalData = new System.Windows.Forms.Label();
             this.panelSlide.SuspendLayout();
             this.panelSubCourses.SuspendLayout();
             this.panelLogo.SuspendLayout();
+            this.panelMain.SuspendLayout();
+            this.panel_topMainForm.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSlide
@@ -82,7 +86,7 @@ namespace SchoolManagement
             // 
             this.panelSubCourses.Controls.Add(this.btnGrades);
             this.panelSubCourses.Controls.Add(this.btnGroups);
-            this.panelSubCourses.Controls.Add(this.btnSeeRemoveCourse);
+            this.panelSubCourses.Controls.Add(this.btnSeeCourse);
             this.panelSubCourses.Controls.Add(this.btnAddCourse);
             this.panelSubCourses.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSubCourses.Location = new System.Drawing.Point(0, 230);
@@ -124,22 +128,22 @@ namespace SchoolManagement
             this.btnGroups.UseVisualStyleBackColor = false;
             this.btnGroups.Click += new System.EventHandler(this.btnGroups_Click);
             // 
-            // btnSeeRemoveCourse
+            // btnSeeCourse
             // 
-            this.btnSeeRemoveCourse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(93)))));
-            this.btnSeeRemoveCourse.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSeeRemoveCourse.FlatAppearance.BorderSize = 0;
-            this.btnSeeRemoveCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeeRemoveCourse.ForeColor = System.Drawing.Color.White;
-            this.btnSeeRemoveCourse.Location = new System.Drawing.Point(0, 55);
-            this.btnSeeRemoveCourse.Name = "btnSeeRemoveCourse";
-            this.btnSeeRemoveCourse.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnSeeRemoveCourse.Size = new System.Drawing.Size(220, 55);
-            this.btnSeeRemoveCourse.TabIndex = 1;
-            this.btnSeeRemoveCourse.Text = "See/Remove course";
-            this.btnSeeRemoveCourse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSeeRemoveCourse.UseVisualStyleBackColor = false;
-            this.btnSeeRemoveCourse.Click += new System.EventHandler(this.btnSeeRemoveCourse_Click);
+            this.btnSeeCourse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(93)))));
+            this.btnSeeCourse.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSeeCourse.FlatAppearance.BorderSize = 0;
+            this.btnSeeCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeeCourse.ForeColor = System.Drawing.Color.White;
+            this.btnSeeCourse.Location = new System.Drawing.Point(0, 55);
+            this.btnSeeCourse.Name = "btnSeeCourse";
+            this.btnSeeCourse.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSeeCourse.Size = new System.Drawing.Size(220, 55);
+            this.btnSeeCourse.TabIndex = 1;
+            this.btnSeeCourse.Text = "See courses";
+            this.btnSeeCourse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSeeCourse.UseVisualStyleBackColor = false;
+            this.btnSeeCourse.Click += new System.EventHandler(this.BtnSeeCourse_Click);
             // 
             // btnAddCourse
             // 
@@ -226,11 +230,34 @@ namespace SchoolManagement
             // 
             // panelMain
             // 
+            this.panelMain.BackColor = System.Drawing.Color.White;
+            this.panelMain.Controls.Add(this.panel_topMainForm);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(220, 0);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1158, 844);
             this.panelMain.TabIndex = 2;
+            // 
+            // panel_topMainForm
+            // 
+            this.panel_topMainForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
+            this.panel_topMainForm.Controls.Add(this.labelPersonalData);
+            this.panel_topMainForm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_topMainForm.Location = new System.Drawing.Point(0, 0);
+            this.panel_topMainForm.Name = "panel_topMainForm";
+            this.panel_topMainForm.Size = new System.Drawing.Size(1158, 94);
+            this.panel_topMainForm.TabIndex = 1;
+            // 
+            // labelPersonalData
+            // 
+            this.labelPersonalData.AutoSize = true;
+            this.labelPersonalData.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.labelPersonalData.ForeColor = System.Drawing.Color.White;
+            this.labelPersonalData.Location = new System.Drawing.Point(409, 22);
+            this.labelPersonalData.Name = "labelPersonalData";
+            this.labelPersonalData.Size = new System.Drawing.Size(304, 48);
+            this.labelPersonalData.TabIndex = 3;
+            this.labelPersonalData.Text = "Welcome to TUCN";
             // 
             // MainFormProfessor
             // 
@@ -250,6 +277,9 @@ namespace SchoolManagement
             this.panelSubCourses.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
+            this.panelMain.ResumeLayout(false);
+            this.panel_topMainForm.ResumeLayout(false);
+            this.panel_topMainForm.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -261,7 +291,7 @@ namespace SchoolManagement
         private System.Windows.Forms.Panel panelSubCourses;
         private System.Windows.Forms.Button btnGrades;
         private System.Windows.Forms.Button btnGroups;
-        private System.Windows.Forms.Button btnSeeRemoveCourse;
+        private System.Windows.Forms.Button btnSeeCourse;
         private System.Windows.Forms.Button btnAddCourse;
         private System.Windows.Forms.Button btnCourses;
         private System.Windows.Forms.Button btnPersonalData;
@@ -269,6 +299,8 @@ namespace SchoolManagement
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelMain;
+        private System.Windows.Forms.Panel panel_topMainForm;
+        private System.Windows.Forms.Label labelPersonalData;
     }
 }
 

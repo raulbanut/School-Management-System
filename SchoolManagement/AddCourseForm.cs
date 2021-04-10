@@ -8,11 +8,16 @@ using System.Windows.Forms;
 
 namespace SchoolManagement
 {
-    public partial class PersonalDataForm : Form
+    public partial class AddCourseForm : Form
     {
-        public PersonalDataForm()
+        public AddCourseForm()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

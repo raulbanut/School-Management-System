@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace SchoolManagement
 {
-    public partial class PersonalDataForm : Form
+    public partial class GroupsFormProfessor : Form
     {
-        public PersonalDataForm()
+        public GroupsFormProfessor()
         {
             InitializeComponent();
         }

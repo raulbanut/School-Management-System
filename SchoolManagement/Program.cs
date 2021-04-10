@@ -18,8 +18,9 @@ namespace SchoolManagement
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             /// Application.Run(new Intro());
-             Application.Run(new MainFormProfessor());
+            Application.Run(new MainFormProfessor());
             /// Application.Run(new PersonalData());
+            //Application.Run(new AddCourseForm());
         }
     }
 }

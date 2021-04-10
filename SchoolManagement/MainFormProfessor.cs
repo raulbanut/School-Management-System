@@ -22,6 +22,7 @@ namespace SchoolManagement
         private Form activeForm = null;
         private void openChildForm(Form childForm)
         {
+            panel_topMainForm.Hide();
             if (activeForm != null)
                 activeForm.Close();
             activeForm = childForm;
@@ -70,21 +71,25 @@ namespace SchoolManagement
         private void btnAddCourse_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+            openChildForm(new AddCourseForm());
         }
 
-        private void btnSeeRemoveCourse_Click(object sender, EventArgs e)
+        private void BtnSeeCourse_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+            openChildForm(new SeeCoursesFormProfessor());
         }
 
         private void btnGroups_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+            openChildForm(new GroupsFormProfessor());
         }
 
         private void btnGrades_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+            openChildForm(new GradesFormProfessor());
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -94,7 +99,7 @@ namespace SchoolManagement
 
         private void btnPersonalData_Click(object sender, EventArgs e)
         {
-            openChildForm(new PersonalData());
+            openChildForm(new PersonalDataForm());
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace SchoolManagement
 {
-    partial class PersonalData
+    partial class PersonalDataForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,6 +30,8 @@ namespace SchoolManagement
         private void InitializeComponent()
         {
             this.panelMain = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
             this.labelPersonalData = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -68,6 +70,8 @@ namespace SchoolManagement
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
+            this.panelMain.Controls.Add(this.panel12);
+            this.panelMain.Controls.Add(this.panel11);
             this.panelMain.Controls.Add(this.labelPersonalData);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMain.Location = new System.Drawing.Point(0, 0);
@@ -75,12 +79,28 @@ namespace SchoolManagement
             this.panelMain.Size = new System.Drawing.Size(1148, 94);
             this.panelMain.TabIndex = 0;
             // 
+            // panel12
+            // 
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel12.Location = new System.Drawing.Point(738, 0);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(410, 94);
+            this.panel12.TabIndex = 7;
+            // 
+            // panel11
+            // 
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel11.Location = new System.Drawing.Point(0, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(410, 94);
+            this.panel11.TabIndex = 6;
+            // 
             // labelPersonalData
             // 
             this.labelPersonalData.AutoSize = true;
             this.labelPersonalData.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.labelPersonalData.ForeColor = System.Drawing.Color.White;
-            this.labelPersonalData.Location = new System.Drawing.Point(444, 21);
+            this.labelPersonalData.Location = new System.Drawing.Point(453, 23);
             this.labelPersonalData.Name = "labelPersonalData";
             this.labelPersonalData.Size = new System.Drawing.Size(246, 48);
             this.labelPersonalData.TabIndex = 3;
@@ -122,10 +142,11 @@ namespace SchoolManagement
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(243)))), ((int)(((byte)(242)))));
             this.textBox1.Location = new System.Drawing.Point(166, 14);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(379, 30);
+            this.textBox1.Size = new System.Drawing.Size(430, 30);
             this.textBox1.TabIndex = 1;
             // 
             // label1
@@ -151,10 +172,11 @@ namespace SchoolManagement
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(243)))), ((int)(((byte)(242)))));
             this.textBox2.Location = new System.Drawing.Point(166, 15);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(379, 30);
+            this.textBox2.Size = new System.Drawing.Size(430, 30);
             this.textBox2.TabIndex = 1;
             // 
             // label2
@@ -180,10 +202,11 @@ namespace SchoolManagement
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(243)))), ((int)(((byte)(242)))));
             this.textBox3.Location = new System.Drawing.Point(166, 10);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(379, 30);
+            this.textBox3.Size = new System.Drawing.Size(430, 30);
             this.textBox3.TabIndex = 1;
             // 
             // label3
@@ -209,10 +232,11 @@ namespace SchoolManagement
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(243)))), ((int)(((byte)(242)))));
             this.textBox4.Location = new System.Drawing.Point(166, 14);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(379, 30);
+            this.textBox4.Size = new System.Drawing.Size(430, 30);
             this.textBox4.TabIndex = 1;
             // 
             // label4
@@ -238,10 +262,11 @@ namespace SchoolManagement
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(243)))), ((int)(((byte)(242)))));
             this.textBox5.Location = new System.Drawing.Point(166, 10);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(379, 30);
+            this.textBox5.Size = new System.Drawing.Size(430, 30);
             this.textBox5.TabIndex = 1;
             // 
             // label5
@@ -267,10 +292,11 @@ namespace SchoolManagement
             // 
             // textBox6
             // 
+            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(243)))), ((int)(((byte)(242)))));
             this.textBox6.Location = new System.Drawing.Point(166, 18);
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(379, 30);
+            this.textBox6.Size = new System.Drawing.Size(430, 30);
             this.textBox6.TabIndex = 1;
             // 
             // label6
@@ -296,10 +322,11 @@ namespace SchoolManagement
             // 
             // textBox7
             // 
+            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(243)))), ((int)(((byte)(242)))));
             this.textBox7.Location = new System.Drawing.Point(166, 14);
             this.textBox7.Name = "textBox7";
             this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(379, 30);
+            this.textBox7.Size = new System.Drawing.Size(430, 30);
             this.textBox7.TabIndex = 1;
             // 
             // label7
@@ -313,7 +340,7 @@ namespace SchoolManagement
             this.label7.TabIndex = 0;
             this.label7.Text = "Email";
             // 
-            // PersonalData
+            // PersonalDataForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -331,11 +358,12 @@ namespace SchoolManagement
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelMain);
             this.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximumSize = new System.Drawing.Size(1170, 840);
             this.MinimumSize = new System.Drawing.Size(1170, 840);
-            this.Name = "PersonalData";
-            this.Text = "PersonalData";
+            this.Name = "PersonalDataForm";
+            this.Text = "Personal Data";
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -384,5 +412,7 @@ namespace SchoolManagement
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel12;
     }
 }

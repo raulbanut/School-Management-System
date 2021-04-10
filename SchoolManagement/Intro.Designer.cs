@@ -38,7 +38,7 @@ namespace SchoolManagement
             this.btnLoginStudent.BackColor = System.Drawing.Color.White;
             this.btnLoginStudent.FlatAppearance.BorderSize = 0;
             this.btnLoginStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLoginStudent.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnLoginStudent.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnLoginStudent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
             this.btnLoginStudent.Location = new System.Drawing.Point(293, 368);
             this.btnLoginStudent.Name = "btnLoginStudent";
@@ -53,7 +53,7 @@ namespace SchoolManagement
             this.btnLoginProfessor.BackColor = System.Drawing.Color.White;
             this.btnLoginProfessor.FlatAppearance.BorderSize = 0;
             this.btnLoginProfessor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLoginProfessor.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnLoginProfessor.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnLoginProfessor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
             this.btnLoginProfessor.Location = new System.Drawing.Point(535, 368);
             this.btnLoginProfessor.Name = "btnLoginProfessor";

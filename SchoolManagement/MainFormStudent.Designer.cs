@@ -41,9 +41,13 @@ namespace SchoolManagement
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.panel_topMainForm = new System.Windows.Forms.Panel();
+            this.labelPersonalData = new System.Windows.Forms.Label();
             this.panelSlide.SuspendLayout();
             this.panelSubCourses.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panelMain.SuspendLayout();
+            this.panel_topMainForm.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSlide
@@ -207,11 +211,33 @@ namespace SchoolManagement
             // 
             // panelMain
             // 
+            this.panelMain.Controls.Add(this.panel_topMainForm);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(220, 0);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1158, 844);
             this.panelMain.TabIndex = 1;
+            // 
+            // panel_topMainForm
+            // 
+            this.panel_topMainForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
+            this.panel_topMainForm.Controls.Add(this.labelPersonalData);
+            this.panel_topMainForm.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_topMainForm.Location = new System.Drawing.Point(0, 0);
+            this.panel_topMainForm.Name = "panel_topMainForm";
+            this.panel_topMainForm.Size = new System.Drawing.Size(1158, 94);
+            this.panel_topMainForm.TabIndex = 2;
+            // 
+            // labelPersonalData
+            // 
+            this.labelPersonalData.AutoSize = true;
+            this.labelPersonalData.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.labelPersonalData.ForeColor = System.Drawing.Color.White;
+            this.labelPersonalData.Location = new System.Drawing.Point(409, 22);
+            this.labelPersonalData.Name = "labelPersonalData";
+            this.labelPersonalData.Size = new System.Drawing.Size(304, 48);
+            this.labelPersonalData.TabIndex = 3;
+            this.labelPersonalData.Text = "Welcome to TUCN";
             // 
             // MainFormStudent
             // 
@@ -232,6 +258,9 @@ namespace SchoolManagement
             this.panelSubCourses.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panelMain.ResumeLayout(false);
+            this.panel_topMainForm.ResumeLayout(false);
+            this.panel_topMainForm.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -250,5 +279,7 @@ namespace SchoolManagement
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panelMain;
+        private System.Windows.Forms.Panel panel_topMainForm;
+        private System.Windows.Forms.Label labelPersonalData;
     }
 }

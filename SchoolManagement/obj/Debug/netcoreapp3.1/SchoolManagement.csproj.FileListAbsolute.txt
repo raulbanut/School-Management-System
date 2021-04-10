@@ -17,4 +17,8 @@ C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj
 C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.Properties.Resources.resources
 C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.Intro.resources
 C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.MainFormStudent.resources
-C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.PersonalData.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.AddCourseForm.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.PersonalDataForm.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.SeeCoursesFormProfessor.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.GradesFormProfessor.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.GroupsFormProfessor.resources
