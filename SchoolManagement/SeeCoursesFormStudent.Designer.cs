@@ -1,7 +1,7 @@
 ﻿
 namespace SchoolManagement
 {
-    partial class GroupsFormProfessor
+    partial class SeeCoursesFormStudent
     {
         /// <summary>
         /// Required designer variable.
@@ -29,125 +29,74 @@ namespace SchoolManagement
         /// </summary>
         private void InitializeComponent()
         {
+            this.panelMain = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.labelGroups = new System.Windows.Forms.Label();
-            this.panelMain = new System.Windows.Forms.Panel();
+            this.labelSeeCourses = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.comboBox_Group = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox_Year = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel = new System.Windows.Forms.Panel();
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btn_Search = new System.Windows.Forms.Button();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelMain.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panel10
-            // 
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel10.Location = new System.Drawing.Point(0, 0);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(500, 94);
-            this.panel10.TabIndex = 5;
-            // 
-            // panel9
-            // 
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel9.Location = new System.Drawing.Point(648, 0);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(500, 94);
-            this.panel9.TabIndex = 4;
-            // 
-            // labelGroups
-            // 
-            this.labelGroups.AutoSize = true;
-            this.labelGroups.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.labelGroups.ForeColor = System.Drawing.Color.White;
-            this.labelGroups.Location = new System.Drawing.Point(505, 24);
-            this.labelGroups.Name = "labelGroups";
-            this.labelGroups.Size = new System.Drawing.Size(137, 48);
-            this.labelGroups.TabIndex = 3;
-            this.labelGroups.Text = "Groups";
             // 
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
             this.panelMain.Controls.Add(this.panel10);
             this.panelMain.Controls.Add(this.panel9);
-            this.panelMain.Controls.Add(this.labelGroups);
+            this.panelMain.Controls.Add(this.labelSeeCourses);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMain.Location = new System.Drawing.Point(0, 0);
+            this.panelMain.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1148, 94);
-            this.panelMain.TabIndex = 2;
+            this.panelMain.TabIndex = 4;
+            // 
+            // panel10
+            // 
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel10.Location = new System.Drawing.Point(0, 0);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(460, 94);
+            this.panel10.TabIndex = 5;
+            // 
+            // panel9
+            // 
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel9.Location = new System.Drawing.Point(688, 0);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(460, 94);
+            this.panel9.TabIndex = 4;
+            // 
+            // labelSeeCourses
+            // 
+            this.labelSeeCourses.AutoSize = true;
+            this.labelSeeCourses.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.labelSeeCourses.ForeColor = System.Drawing.Color.White;
+            this.labelSeeCourses.Location = new System.Drawing.Point(457, 23);
+            this.labelSeeCourses.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelSeeCourses.Name = "labelSeeCourses";
+            this.labelSeeCourses.Size = new System.Drawing.Size(223, 48);
+            this.labelSeeCourses.TabIndex = 3;
+            this.labelSeeCourses.Text = "See Courses\r\n";
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.comboBox_Group);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Controls.Add(this.comboBox_Year);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(180, 94);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(788, 107);
+            this.panel3.Size = new System.Drawing.Size(788, 85);
             this.panel3.TabIndex = 15;
-            // 
-            // comboBox_Group
-            // 
-            this.comboBox_Group.FormattingEnabled = true;
-            this.comboBox_Group.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6"});
-            this.comboBox_Group.Location = new System.Drawing.Point(599, 50);
-            this.comboBox_Group.Name = "comboBox_Group";
-            this.comboBox_Group.Size = new System.Drawing.Size(136, 33);
-            this.comboBox_Group.TabIndex = 19;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft JhengHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(54, 49);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 30);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Year of study";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft JhengHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(507, 49);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 30);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Group";
-            // 
-            // comboBox_Year
-            // 
-            this.comboBox_Year.FormattingEnabled = true;
-            this.comboBox_Year.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4"});
-            this.comboBox_Year.Location = new System.Drawing.Point(224, 50);
-            this.comboBox_Year.Name = "comboBox_Year";
-            this.comboBox_Year.Size = new System.Drawing.Size(136, 33);
-            this.comboBox_Year.TabIndex = 17;
             // 
             // panel1
             // 
@@ -172,12 +121,15 @@ namespace SchoolManagement
             this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
-            this.Column3});
-            this.dataGridView.Location = new System.Drawing.Point(186, 207);
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6});
+            this.dataGridView.Location = new System.Drawing.Point(186, 184);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 62;
             this.dataGridView.RowTemplate.Height = 33;
-            this.dataGridView.Size = new System.Drawing.Size(776, 426);
+            this.dataGridView.Size = new System.Drawing.Size(776, 417);
             this.dataGridView.TabIndex = 16;
             // 
             // Column1
@@ -190,37 +142,44 @@ namespace SchoolManagement
             // Column2
             // 
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.HeaderText = "Last Name";
+            this.Column2.HeaderText = "Course Name";
             this.Column2.MinimumWidth = 8;
             this.Column2.Name = "Column2";
             // 
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.HeaderText = "First Name";
+            this.Column3.HeaderText = "Teacher Name";
             this.Column3.MinimumWidth = 8;
             this.Column3.Name = "Column3";
             // 
-            // btn_Search
+            // Column4
             // 
-            this.btn_Search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
-            this.btn_Search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Search.Font = new System.Drawing.Font("Microsoft JhengHei UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_Search.ForeColor = System.Drawing.Color.White;
-            this.btn_Search.Location = new System.Drawing.Point(747, 687);
-            this.btn_Search.Name = "btn_Search";
-            this.btn_Search.Size = new System.Drawing.Size(168, 58);
-            this.btn_Search.TabIndex = 17;
-            this.btn_Search.Text = "Search";
-            this.btn_Search.UseVisualStyleBackColor = false;
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.HeaderText = "Year of study";
+            this.Column4.MinimumWidth = 8;
+            this.Column4.Name = "Column4";
             // 
-            // GroupsFormProfessor
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.HeaderText = "Semester";
+            this.Column5.MinimumWidth = 8;
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column6.HeaderText = "Number of credits";
+            this.Column6.MinimumWidth = 8;
+            this.Column6.Name = "Column6";
+            // 
+            // SeeCoursesFormStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1148, 784);
-            this.Controls.Add(this.btn_Search);
             this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -231,12 +190,10 @@ namespace SchoolManagement
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximumSize = new System.Drawing.Size(1170, 840);
             this.MinimumSize = new System.Drawing.Size(1170, 840);
-            this.Name = "GroupsFormProfessor";
-            this.Text = "Groups";
+            this.Name = "SeeCoursesFormStudent";
+            this.Text = "See Courses";
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 
@@ -244,21 +201,19 @@ namespace SchoolManagement
 
         #endregion
 
+        private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label labelGroups;
-        private System.Windows.Forms.Panel panelMain;
+        private System.Windows.Forms.Label labelSeeCourses;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel;
-        private System.Windows.Forms.ComboBox comboBox_Year;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox_Group;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.Button btn_Search;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
     }
 }

@@ -141,7 +141,7 @@ namespace SchoolManagement
             this.btnSeeCourses.Text = "See courses";
             this.btnSeeCourses.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSeeCourses.UseVisualStyleBackColor = false;
-            this.btnSeeCourses.Click += new System.EventHandler(this.btnSeeCourses_Click);
+            this.btnSeeCourses.Click += new System.EventHandler(this.BtnSeeCourses_Click);
             // 
             // btnCourses
             // 

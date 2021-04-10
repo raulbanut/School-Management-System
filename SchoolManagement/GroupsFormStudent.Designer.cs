@@ -1,7 +1,7 @@
 ﻿
 namespace SchoolManagement
 {
-    partial class GroupsFormProfessor
+    partial class GroupsFormStudent
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,10 @@ namespace SchoolManagement
         /// </summary>
         private void InitializeComponent()
         {
+            this.panelMain = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.labelGroups = new System.Windows.Forms.Label();
-            this.panelMain = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.comboBox_Group = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -49,6 +49,18 @@ namespace SchoolManagement
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
+            // 
+            // panelMain
+            // 
+            this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
+            this.panelMain.Controls.Add(this.panel10);
+            this.panelMain.Controls.Add(this.panel9);
+            this.panelMain.Controls.Add(this.labelGroups);
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelMain.Location = new System.Drawing.Point(0, 0);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(1148, 94);
+            this.panelMain.TabIndex = 3;
             // 
             // panel10
             // 
@@ -77,18 +89,6 @@ namespace SchoolManagement
             this.labelGroups.TabIndex = 3;
             this.labelGroups.Text = "Groups";
             // 
-            // panelMain
-            // 
-            this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
-            this.panelMain.Controls.Add(this.panel10);
-            this.panelMain.Controls.Add(this.panel9);
-            this.panelMain.Controls.Add(this.labelGroups);
-            this.panelMain.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelMain.Location = new System.Drawing.Point(0, 0);
-            this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(1148, 94);
-            this.panelMain.TabIndex = 2;
-            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.comboBox_Group);
@@ -99,7 +99,7 @@ namespace SchoolManagement
             this.panel3.Location = new System.Drawing.Point(180, 94);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(788, 107);
-            this.panel3.TabIndex = 15;
+            this.panel3.TabIndex = 18;
             // 
             // comboBox_Group
             // 
@@ -155,7 +155,7 @@ namespace SchoolManagement
             this.panel1.Location = new System.Drawing.Point(968, 94);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(180, 690);
-            this.panel1.TabIndex = 14;
+            this.panel1.TabIndex = 17;
             // 
             // panel
             // 
@@ -163,7 +163,7 @@ namespace SchoolManagement
             this.panel.Location = new System.Drawing.Point(0, 94);
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(180, 690);
-            this.panel.TabIndex = 13;
+            this.panel.TabIndex = 16;
             // 
             // dataGridView
             // 
@@ -178,7 +178,7 @@ namespace SchoolManagement
             this.dataGridView.RowHeadersWidth = 62;
             this.dataGridView.RowTemplate.Height = 33;
             this.dataGridView.Size = new System.Drawing.Size(776, 426);
-            this.dataGridView.TabIndex = 16;
+            this.dataGridView.TabIndex = 19;
             // 
             // Column1
             // 
@@ -210,11 +210,11 @@ namespace SchoolManagement
             this.btn_Search.Location = new System.Drawing.Point(747, 687);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(168, 58);
-            this.btn_Search.TabIndex = 17;
+            this.btn_Search.TabIndex = 20;
             this.btn_Search.Text = "Search";
             this.btn_Search.UseVisualStyleBackColor = false;
             // 
-            // GroupsFormProfessor
+            // GroupsFormStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -231,7 +231,7 @@ namespace SchoolManagement
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximumSize = new System.Drawing.Size(1170, 840);
             this.MinimumSize = new System.Drawing.Size(1170, 840);
-            this.Name = "GroupsFormProfessor";
+            this.Name = "GroupsFormStudent";
             this.Text = "Groups";
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
@@ -244,17 +244,17 @@ namespace SchoolManagement
 
         #endregion
 
+        private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label labelGroups;
-        private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.ComboBox comboBox_Group;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox_Year;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel;
-        private System.Windows.Forms.ComboBox comboBox_Year;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox_Group;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;

@@ -32,17 +32,17 @@ namespace SchoolManagement
             this.panelMain = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.labelPersonalData = new System.Windows.Forms.Label();
+            this.labelSeeCourses = new System.Windows.Forms.Label();
             this.btn_Remove = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel = new System.Windows.Forms.Panel();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel = new System.Windows.Forms.Panel();
             this.panelMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
@@ -52,7 +52,7 @@ namespace SchoolManagement
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
             this.panelMain.Controls.Add(this.panel10);
             this.panelMain.Controls.Add(this.panel9);
-            this.panelMain.Controls.Add(this.labelPersonalData);
+            this.panelMain.Controls.Add(this.labelSeeCourses);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMain.Location = new System.Drawing.Point(0, 0);
             this.panelMain.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -78,17 +78,17 @@ namespace SchoolManagement
             this.panel9.Size = new System.Drawing.Size(460, 94);
             this.panel9.TabIndex = 4;
             // 
-            // labelPersonalData
+            // labelSeeCourses
             // 
-            this.labelPersonalData.AutoSize = true;
-            this.labelPersonalData.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.labelPersonalData.ForeColor = System.Drawing.Color.White;
-            this.labelPersonalData.Location = new System.Drawing.Point(457, 23);
-            this.labelPersonalData.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelPersonalData.Name = "labelPersonalData";
-            this.labelPersonalData.Size = new System.Drawing.Size(223, 48);
-            this.labelPersonalData.TabIndex = 3;
-            this.labelPersonalData.Text = "See Courses\r\n";
+            this.labelSeeCourses.AutoSize = true;
+            this.labelSeeCourses.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.labelSeeCourses.ForeColor = System.Drawing.Color.White;
+            this.labelSeeCourses.Location = new System.Drawing.Point(457, 23);
+            this.labelSeeCourses.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelSeeCourses.Name = "labelSeeCourses";
+            this.labelSeeCourses.Size = new System.Drawing.Size(223, 48);
+            this.labelSeeCourses.TabIndex = 3;
+            this.labelSeeCourses.Text = "See Courses\r\n";
             // 
             // btn_Remove
             // 
@@ -128,22 +128,6 @@ namespace SchoolManagement
             this.dataGridView.Size = new System.Drawing.Size(776, 417);
             this.dataGridView.TabIndex = 11;
             // 
-            // panel1
-            // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(968, 94);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(180, 690);
-            this.panel1.TabIndex = 10;
-            // 
-            // panel
-            // 
-            this.panel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel.Location = new System.Drawing.Point(0, 94);
-            this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(180, 690);
-            this.panel.TabIndex = 9;
-            // 
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -179,6 +163,22 @@ namespace SchoolManagement
             this.Column5.MinimumWidth = 8;
             this.Column5.Name = "Column5";
             // 
+            // panel1
+            // 
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel1.Location = new System.Drawing.Point(968, 94);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(180, 690);
+            this.panel1.TabIndex = 10;
+            // 
+            // panel
+            // 
+            this.panel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel.Location = new System.Drawing.Point(0, 94);
+            this.panel.Name = "panel";
+            this.panel.Size = new System.Drawing.Size(180, 690);
+            this.panel.TabIndex = 9;
+            // 
             // SeeCoursesFormProfessor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -210,7 +210,7 @@ namespace SchoolManagement
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label labelPersonalData;
+        private System.Windows.Forms.Label labelSeeCourses;
         private System.Windows.Forms.Button btn_Remove;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView dataGridView;

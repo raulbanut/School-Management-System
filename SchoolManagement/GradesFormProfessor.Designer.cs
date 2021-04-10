@@ -32,8 +32,11 @@ namespace SchoolManagement
             this.panelMain = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.labelPersonalData = new System.Windows.Forms.Label();
+            this.labelGrades = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btn_Search = new System.Windows.Forms.Button();
+            this.comboBox_CourseName = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.comboBox_Group = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -45,9 +48,6 @@ namespace SchoolManagement
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.comboBox_CourseName = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btn_Search = new System.Windows.Forms.Button();
             this.panelMain.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
@@ -58,7 +58,7 @@ namespace SchoolManagement
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
             this.panelMain.Controls.Add(this.panel10);
             this.panelMain.Controls.Add(this.panel9);
-            this.panelMain.Controls.Add(this.labelPersonalData);
+            this.panelMain.Controls.Add(this.labelGrades);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMain.Location = new System.Drawing.Point(0, 0);
             this.panelMain.Name = "panelMain";
@@ -81,16 +81,16 @@ namespace SchoolManagement
             this.panel9.Size = new System.Drawing.Size(500, 94);
             this.panel9.TabIndex = 4;
             // 
-            // labelPersonalData
+            // labelGrades
             // 
-            this.labelPersonalData.AutoSize = true;
-            this.labelPersonalData.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.labelPersonalData.ForeColor = System.Drawing.Color.White;
-            this.labelPersonalData.Location = new System.Drawing.Point(505, 24);
-            this.labelPersonalData.Name = "labelPersonalData";
-            this.labelPersonalData.Size = new System.Drawing.Size(136, 48);
-            this.labelPersonalData.TabIndex = 3;
-            this.labelPersonalData.Text = "Grades";
+            this.labelGrades.AutoSize = true;
+            this.labelGrades.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.labelGrades.ForeColor = System.Drawing.Color.White;
+            this.labelGrades.Location = new System.Drawing.Point(505, 24);
+            this.labelGrades.Name = "labelGrades";
+            this.labelGrades.Size = new System.Drawing.Size(136, 48);
+            this.labelGrades.TabIndex = 3;
+            this.labelGrades.Text = "Grades";
             // 
             // panel3
             // 
@@ -106,6 +106,37 @@ namespace SchoolManagement
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(788, 173);
             this.panel3.TabIndex = 18;
+            // 
+            // btn_Search
+            // 
+            this.btn_Search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
+            this.btn_Search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Search.Font = new System.Drawing.Font("Microsoft JhengHei UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_Search.ForeColor = System.Drawing.Color.White;
+            this.btn_Search.Location = new System.Drawing.Point(544, 54);
+            this.btn_Search.Name = "btn_Search";
+            this.btn_Search.Size = new System.Drawing.Size(168, 58);
+            this.btn_Search.TabIndex = 22;
+            this.btn_Search.Text = "Search";
+            this.btn_Search.UseVisualStyleBackColor = false;
+            // 
+            // comboBox_CourseName
+            // 
+            this.comboBox_CourseName.FormattingEnabled = true;
+            this.comboBox_CourseName.Location = new System.Drawing.Point(184, 31);
+            this.comboBox_CourseName.Name = "comboBox_CourseName";
+            this.comboBox_CourseName.Size = new System.Drawing.Size(136, 33);
+            this.comboBox_CourseName.TabIndex = 21;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft JhengHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(9, 31);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(169, 30);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Course Name";
             // 
             // comboBox_Group
             // 
@@ -180,11 +211,11 @@ namespace SchoolManagement
             this.Column2,
             this.Column3,
             this.Column4});
-            this.dataGridView.Location = new System.Drawing.Point(180, 289);
+            this.dataGridView.Location = new System.Drawing.Point(186, 273);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersWidth = 62;
             this.dataGridView.RowTemplate.Height = 33;
-            this.dataGridView.Size = new System.Drawing.Size(776, 426);
+            this.dataGridView.Size = new System.Drawing.Size(776, 445);
             this.dataGridView.TabIndex = 19;
             // 
             // Column1
@@ -210,41 +241,10 @@ namespace SchoolManagement
             // 
             // Column4
             // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column4.HeaderText = "Grade";
             this.Column4.MinimumWidth = 8;
             this.Column4.Name = "Column4";
-            this.Column4.Width = 150;
-            // 
-            // comboBox_CourseName
-            // 
-            this.comboBox_CourseName.FormattingEnabled = true;
-            this.comboBox_CourseName.Location = new System.Drawing.Point(184, 31);
-            this.comboBox_CourseName.Name = "comboBox_CourseName";
-            this.comboBox_CourseName.Size = new System.Drawing.Size(136, 33);
-            this.comboBox_CourseName.TabIndex = 21;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft JhengHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(9, 31);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(169, 30);
-            this.label3.TabIndex = 20;
-            this.label3.Text = "Course Name";
-            // 
-            // btn_Search
-            // 
-            this.btn_Search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
-            this.btn_Search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Search.Font = new System.Drawing.Font("Microsoft JhengHei UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_Search.ForeColor = System.Drawing.Color.White;
-            this.btn_Search.Location = new System.Drawing.Point(544, 54);
-            this.btn_Search.Name = "btn_Search";
-            this.btn_Search.Size = new System.Drawing.Size(168, 58);
-            this.btn_Search.TabIndex = 22;
-            this.btn_Search.Text = "Search";
-            this.btn_Search.UseVisualStyleBackColor = false;
             // 
             // GradesFormProfessor
             // 
@@ -278,7 +278,7 @@ namespace SchoolManagement
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label labelPersonalData;
+        private System.Windows.Forms.Label labelGrades;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.ComboBox comboBox_Group;
         private System.Windows.Forms.Label label2;
@@ -289,10 +289,10 @@ namespace SchoolManagement
         private System.Windows.Forms.ComboBox comboBox_CourseName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dataGridView;
+        private System.Windows.Forms.Button btn_Search;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.Button btn_Search;
     }
 }

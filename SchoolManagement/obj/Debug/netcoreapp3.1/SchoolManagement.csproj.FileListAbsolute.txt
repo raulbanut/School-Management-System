@@ -22,3 +22,6 @@ C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj
 C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.SeeCoursesFormProfessor.resources
 C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.GradesFormProfessor.resources
 C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.GroupsFormProfessor.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.GradesFormStudent.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.GroupsFormStudent.resources
+C:\Users\banut\OneDrive\Desktop\II\Project\SchoolManagement\SchoolManagement\obj\Debug\netcoreapp3.1\SchoolManagement.SeeCoursesFormStudent.resources

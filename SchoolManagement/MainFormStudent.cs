@@ -73,16 +73,19 @@ namespace SchoolManagement
         private void btnGrades_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+            openChildForm(new GradesFormStudent());
         }
 
         private void btnGroups_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+            openChildForm(new GroupsFormStudent());
         }
 
-        private void btnSeeCourses_Click(object sender, EventArgs e)
+        private void BtnSeeCourses_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+            openChildForm(new SeeCoursesFormStudent());
         }
 
         private void btnCourses_Click(object sender, EventArgs e)
