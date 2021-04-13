@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\banut\\.nuget\\packages\\": {}
+    "C:\\Users\\mihai\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\banut\\OneDrive\\Desktop\\II\\Project\\SchoolManagement\\SchoolManagement\\SchoolManagement.csproj",
+      "projectUniqueName": "C:\\Users\\mihai\\Downloads\\School-Management-System-main\\SchoolManagement\\SchoolManagement.csproj",
       "projectName": "SchoolManagement",
-      "projectPath": "C:\\Users\\banut\\OneDrive\\Desktop\\II\\Project\\SchoolManagement\\SchoolManagement\\SchoolManagement.csproj",
-      "packagesPath": "C:\\Users\\banut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\banut\\OneDrive\\Desktop\\II\\Project\\SchoolManagement\\SchoolManagement\\obj\\",
+      "projectPath": "C:\\Users\\mihai\\Downloads\\School-Management-System-main\\SchoolManagement\\SchoolManagement.csproj",
+      "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mihai\\Downloads\\School-Management-System-main\\SchoolManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\banut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mihai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
