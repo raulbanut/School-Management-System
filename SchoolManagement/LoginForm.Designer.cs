@@ -51,7 +51,7 @@ namespace SchoolManagement
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(688, 72);
+            this.panelTop.Size = new System.Drawing.Size(692, 72);
             this.panelTop.TabIndex = 0;
             // 
             // label1
@@ -62,7 +62,7 @@ namespace SchoolManagement
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(190, 12, 0, 0);
-            this.label1.Size = new System.Drawing.Size(494, 60);
+            this.label1.Size = new System.Drawing.Size(449, 54);
             this.label1.TabIndex = 0;
             this.label1.Text = "Welcome to TUCN";
             // 
@@ -73,7 +73,7 @@ namespace SchoolManagement
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
             this.label2.Location = new System.Drawing.Point(151, 122);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(391, 46);
+            this.label2.Size = new System.Drawing.Size(326, 38);
             this.label2.TabIndex = 1;
             this.label2.Text = "Login to your account";
             // 
@@ -81,7 +81,7 @@ namespace SchoolManagement
             // 
             this.textBoxUsername.Location = new System.Drawing.Point(267, 222);
             this.textBoxUsername.Name = "textBoxUsername";
-            this.textBoxUsername.Size = new System.Drawing.Size(309, 30);
+            this.textBoxUsername.Size = new System.Drawing.Size(309, 27);
             this.textBoxUsername.TabIndex = 2;
             // 
             // label3
@@ -91,7 +91,7 @@ namespace SchoolManagement
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
             this.label3.Location = new System.Drawing.Point(82, 222);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 30);
+            this.label3.Size = new System.Drawing.Size(112, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "Username:";
             // 
@@ -102,13 +102,12 @@ namespace SchoolManagement
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(65)))), ((int)(((byte)(89)))));
             this.label4.Location = new System.Drawing.Point(82, 287);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(126, 30);
+            this.label4.Size = new System.Drawing.Size(107, 25);
             this.label4.TabIndex = 4;
             this.label4.Text = "Password:";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::SchoolManagement.Properties.Resources.iconPerson;
             this.pictureBox1.Location = new System.Drawing.Point(237, 222);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(24, 24);
@@ -121,12 +120,11 @@ namespace SchoolManagement
             this.textBoxPassword.Location = new System.Drawing.Point(267, 287);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
-            this.textBoxPassword.Size = new System.Drawing.Size(309, 30);
+            this.textBoxPassword.Size = new System.Drawing.Size(309, 27);
             this.textBoxPassword.TabIndex = 6;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::SchoolManagement.Properties.Resources.iconLock;
             this.pictureBox2.Location = new System.Drawing.Point(237, 293);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(24, 24);
@@ -150,9 +148,9 @@ namespace SchoolManagement
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(688, 469);
+            this.ClientSize = new System.Drawing.Size(692, 478);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.textBoxPassword);

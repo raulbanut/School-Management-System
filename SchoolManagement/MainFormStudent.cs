@@ -10,8 +10,12 @@ namespace SchoolManagement
 {
     public partial class MainFormStudent : Form
     {
-        public MainFormStudent()
+        string username;
+        string password;
+        public MainFormStudent(string username,string password)
         {
+            this.username = username;
+            this.password = password;
             InitializeComponent();
             customizeDesign();
         }
@@ -67,7 +71,7 @@ namespace SchoolManagement
 
         private void btnPersonalData_Click(object sender, EventArgs e)
         {
-            openChildForm(new PersonalDataForm());
+            openChildForm(new PersonalDataForm(username, password, "student"));
         }
 
         private void btnGrades_Click(object sender, EventArgs e)
