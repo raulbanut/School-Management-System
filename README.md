@@ -1,2 +1,3 @@
 # School-Management-System
-Salut
+
+It's a school management system.
